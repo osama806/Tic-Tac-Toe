@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
+    />
+    <title>Tic Tac Toe</title>
+  </head>
+
+  <body>
+    <header class="game-header">
+      <h1 class="mt-6">Tic tac toe</h1>
+      <p class="mt-3">X always starts</p>
+      <p class="mb-5"><span id="current"></span></p>
+    </header>
+    <div class="board">
+      <div class="index"></div>
+      <div class="index"></div>
+      <div class="index"></div>
+      <div class="index"></div>
+      <div class="index"></div>
+      <div class="index"></div>
+      <div class="index"></div>
+      <div class="index"></div>
+      <div class="index"></div>
+    </div>
+    <p class="score_X has-text-centered mt-5">
+      player X score is: <span id="sc_X"></span>
+    </p>
+    <p class="score_O has-text-centered mt-5">
+      player O score is: <span id="sc_O"></span>
+    </p>
+    <script src="main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .game-header {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .current {
+    font-size: 2em;
+  }
+  .board {
+    width: 306px;
+    margin: 0 auto;
+    display: grid;
+    grid-template: repeat(3,100px) / repeat(3,100px);
+    grid-gap: 3px;
+    background-color: #000;
+  }
+  .board > * {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    cursor: pointer;
+  }
